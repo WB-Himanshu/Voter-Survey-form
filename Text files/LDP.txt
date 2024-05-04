@@ -1,0 +1,27 @@
+#####Resources used##############
+background color : - #BEADFA
+Button color : - #7743DB
+Qustion color : - #120101
+Answer color  : - #FF8911
+Input Box color : - #EBC49E
+
+Font Family: - Ingconsolata
+
+#How to make radio Buttons in the html:  - 
+
+<input type="radio" name="" id="">
+
+#How to make only one radio button selected at a time.
+
+Since input field comes under the "form" tag , and form data will be submitted to the database by JSP 
+or PHP server files , hence if there are more than one option for input radio button then we should map 
+all of there "name" attributes to the same data form varibales , and since one variable can contain
+one value only , hence only one selected option will registered in the data form through that variable.
+
+# While increasing the width of Other input fields the width of radio input fields may increased 
+drastically so to avoid situation we should use margin or  margin auto to control the width and also to center the
+input fields.
+
+#How to hide the vertically overflowed spaces.?
+We can do that by using overflow-y : hidden property.
+

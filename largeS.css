@@ -1,0 +1,50 @@
+body{
+    background-color: #beadfa;
+    display: block;
+}
+
+.page1{
+    background-color:#BEADFA ;
+    height: 800px;
+    width: 800px;
+}
+
+.page2 {
+    position: absolute;
+    left: 750px;
+    top: 40px;
+    margin-left: 50px;
+    background-color: #beadfa;
+    border-bottom-left-radius: 0px;
+  }
+
+  #Bone {
+    display: none;
+  }
+  
+  #Bone img{
+    display: none;
+  }
+
+  #Btwo{
+    display: none;
+  }
+
+  #Btwo img{
+    display: none;
+  }
+
+  .submit
+  {
+    border-radius: 50%;
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
+
+  #Q4{
+    display: block;
+    margin: 50%;
+    margin: auto;
+  }

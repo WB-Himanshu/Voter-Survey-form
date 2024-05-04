@@ -1,0 +1,164 @@
+/* Css Reset */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+}
+
+/* Css for the Pages */
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-align: center;
+    font-family: Heading Font;
+    font-size: 65px;
+    color: #120101;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+
+h4{
+    margin-top: -30px;
+    text-align: center;
+    font-family: Heading  Font;
+    font-size: 18px;
+    color: #FF8911;
+}
+
+#one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form input{
+    margin: 3px;
+    padding: 5px;
+}
+
+form
+{
+    font-family: QA Font;
+    color: #120101;
+}
+
+.answers{
+    color: #FF8911;
+}
+
+@font-face {
+    font-family: Heading Font;
+    src: url(./Fonts/Inconsolata/static/Inconsolata-Bold.ttf);
+}
+
+@font-face {
+    font-family: QA Font;
+    src: url(./Fonts/Inconsolata/static/Inconsolata-SemiBold.ttf);
+}
+
+.page1{
+    background-color:#BEADFA ;
+    height: 100vh;
+    width: 100vw;
+    border-bottom-right-radius: 500px;
+}
+
+#Bone img{
+    height: 80px;
+    width: 80px;
+}
+
+#Bone{
+    background-color:#BEADFA ;
+    border-radius:100px;
+    border: 0px solid white;
+    position: relative;
+    left: 1210px;
+    bottom:70px;
+    height: 105px;
+    width: 110px;
+    padding: 10px;
+}
+
+#Bone:hover{
+    background-color: #7743DB ;
+}
+
+.page2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: QA Font;
+}
+
+.pd{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.IF{
+    margin: 5px;
+    padding: 5px;
+    width: 455px;
+}
+
+.page2{
+    background-color: #BEADFA;
+    border-bottom-left-radius: 700px;
+}
+
+
+#Btwo{
+    background-color:#BEADFA ;
+    border-radius:100px;
+    border: 0px solid white;
+    position: relative;
+    right: 580px;
+    bottom:80px;
+    height: 105px;
+    width: 110px;
+    padding: 10px;
+}
+
+#Btwo img{
+    height: 80px;
+    width: 80px;
+}
+
+#Btwo:hover{
+    background-color: #7743DB ;
+}
+
+.submit{
+    width: 480px;
+    padding: 7px;
+    border: 0px solid #BEADFA;
+    border-radius: 15px;
+    background-color: #7743DB;
+    position: relative;
+    left: 80px;
+}
+
+.submit:hover{
+    border: 2px solid black;
+}
+
+#Q4{
+    color: #120101;
+}
+
+/* Positiong both pages horizontally to each other  */
+
+.page2{
+    position:relative;
+    left: 1500px;
+    bottom: 600px;
+
+}
+

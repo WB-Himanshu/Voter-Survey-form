@@ -1,0 +1,96 @@
+body{
+    background-color: #beadfa;
+    overflow-x: hidden;
+}
+.hb{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    font-family: Heading Font;
+    font-size: 65px;
+    color: #120101;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+.page1 {
+  background-color: #beadfa;
+  height: 100%;
+  width: 100vw;
+  border-radius: 0%;
+  margin-left: 10px;
+}
+
+#Bone {
+  background-color: #f87f0d;
+  border-radius: 100px;
+  border: 0px solid white;
+  position: relative;
+  left: 86vw;
+  bottom: 10vh;
+  height: 105px;
+  width: 110px;
+  padding: 10px;
+  display: none;
+}
+
+#Bone img {
+  height: 80px;
+  width: 80px;
+  transform: rotate(90deg);
+}
+
+.page2 {
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  background-color: #beadfa;
+  border-bottom-left-radius: 0px;
+  width: 100vw;
+}
+
+
+#Btwo{
+    display: none;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    
+}
+
+#Btwo img {
+  height: 80px;
+  width: 80px;
+  transform: rotate(90deg);
+}
+
+
+.pd{
+    display: block;
+    width: 80vw;
+    margin: auto;
+}
+
+/* responsive box for pd between 850px to 1350px */
+@media screen and (min-width:850px) and (max-width:1350px) {
+    .pd{
+        display: block;
+        width: 50%;
+        margin: auto;
+    }  
+}
+
+
+#Q4{
+    color: #120101;
+    margin-left: 10px;
+}
+
+.submit{
+    display: block;
+    width: 20vw;
+    margin: auto;
+}
